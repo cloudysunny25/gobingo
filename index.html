@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>go bingo!</title>
+        <style type="text/css">
+            td{
+                width: 50px;
+                height: 50px;
+                border: 1px;
+                border-style: solid;
+                border-color: gray;
+                text-align: center;
+            }
+            input{
+                width:30px;
+                text-align: center;
+            }
+            .bg_input{
+                width: 40px;
+                height: 40px;
+                border: 0px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="number" id="length">
+        X
+        <input type="number" id="length2" readonly="readonly">
+        <button id="ok">만들기</button>
+        <button id="start" disabled="disabled">시작</button>
+
+        <script src="bingo.js"></script>
+    </body>
+</html>
